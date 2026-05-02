@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.imagem-comeco{
+    height: auto;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.col-md-4 .p-4{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.col-md-4 .p-4:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff !important;
+    border-color: var(--bs-primary) !important;   
+}
